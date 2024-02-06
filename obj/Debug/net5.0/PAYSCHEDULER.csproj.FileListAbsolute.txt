@@ -1,0 +1,15 @@
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/bin/Debug/net5.0/PAYSCHEDULER.deps.json
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/bin/Debug/net5.0/PAYSCHEDULER.runtimeconfig.json
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/bin/Debug/net5.0/PAYSCHEDULER.runtimeconfig.dev.json
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/bin/Debug/net5.0/PAYSCHEDULER.dll
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/bin/Debug/net5.0/ref/PAYSCHEDULER.dll
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/bin/Debug/net5.0/PAYSCHEDULER.pdb
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/PAYSCHEDULER.csproj.AssemblyReference.cache
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/PAYSCHEDULER.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/PAYSCHEDULER.AssemblyInfoInputs.cache
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/PAYSCHEDULER.AssemblyInfo.cs
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/PAYSCHEDULER.csproj.CoreCompileInputs.cache
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/PAYSCHEDULER.dll
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/ref/PAYSCHEDULER.dll
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/PAYSCHEDULER.pdb
+/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/obj/Debug/net5.0/PAYSCHEDULER.genruntimeconfig.cache
