@@ -13,7 +13,9 @@ namespace PAYSCHEDULER
 
             foreach (Expenses expense in expenses)
             {
-                Console.WriteLine($"Amount: {expense.TotalCost}");
+                Console.WriteLine($"Amount: {expense.TotalCost}$ Step cost:{expense.StepCost}$");
+                Console.WriteLine("Start Date: {0:D}",expense.StartDate);
+                Console.WriteLine("End Date: {0:D}",expense.EndDate);
             }
         }
     }

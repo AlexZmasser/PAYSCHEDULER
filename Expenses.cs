@@ -43,7 +43,9 @@ namespace PAYSCHEDULER
         public Expenses( decimal TotalCost, DateTime StartDate, String Group)
         {
             totalCost = TotalCost;
+            StepCost = TotalCost/4;
             startDate = StartDate;
+            endDate = startDate.AddDays(56);
             group = Group;
             
         }
