@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic; 
 
 namespace PAYSCHEDULER
 {
@@ -6,10 +7,14 @@ namespace PAYSCHEDULER
     {
         static void Main(string[] args)
         {
-            Sample mySample = new Sample();
-            mySample.Color = "red";
-            mySample.Speed = 25; 
-            Console.WriteLine(mySample.Color + mySample.Speed);
+            List<Expenses> expenses = new List<Expenses>();
+            
+            Expenses.AddExpenseToList(expenses, 89, DateTime.Now, "Foods");
+
+            foreach (Expenses expense in expenses)
+            {
+                Console.WriteLine($"Amount: {expense.TotalCost}");
+            }
         }
     }
 }
