@@ -8,7 +8,13 @@ namespace PAYSCHEDULER
         private decimal totalCost,stepCost;
         private DateTime startDate,endDate; // field
         private string costName,group; // name
+        private bool paid;
 
+        public bool Paid   // property
+        {
+            get { return paid; }   // get method
+            set { paid = value; }  // set method
+        }
         public decimal TotalCost   // property
         {
             get { return totalCost; }   // get method
