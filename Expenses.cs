@@ -10,7 +10,7 @@ namespace PAYSCHEDULER
         private string costName,group; // name
         private bool paid;
 
-        public bool Paid   // property
+        public bool Paid   // paid
         {
             get { return paid; }   // get method
             set { paid = value; }  // set method
@@ -46,19 +46,20 @@ namespace PAYSCHEDULER
             get { return group; }   // get method
             set { group = value; }  // set method
         }
-        public Expenses( decimal TotalCost, DateTime StartDate, String Group)
+        public Expenses( decimal TotalCost, DateTime StartDate, String Group, bool Paid)
         {
             totalCost = TotalCost;
             StepCost = TotalCost/4;
             startDate = StartDate;
             endDate = startDate.AddDays(56);
             group = Group;
+            paid = Paid;
             
         }
 
-        public static void AddExpenseToList(List<Expenses> expenseList, decimal TotalCost, DateTime StartDate, String Group)
+        public static void AddExpenseToList(List<Expenses> expenseList, decimal TotalCost, DateTime StartDate, String Group, bool Paid)
         {
-            Expenses newExpense = new Expenses(TotalCost,StartDate,Group);
+            Expenses newExpense = new Expenses(TotalCost,StartDate,Group,Paid);
             expenseList.Add(newExpense);
 
         }
