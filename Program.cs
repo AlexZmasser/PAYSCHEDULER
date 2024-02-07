@@ -17,6 +17,8 @@ namespace PAYSCHEDULER
                 Console.WriteLine("Start Date: {0:D}",expense.StartDate);
                 Console.WriteLine("End Date: {0:D}",expense.EndDate); 
                 Console.WriteLine($"Paid: {expense.Paid}");
+                expense.Paid = true ;
+                Console.WriteLine($"Paid: {expense.Paid}");
             }
         }
     }
