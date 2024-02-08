@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PAYSCHEDULER
 {
-    class Expenses
+    public class Expenses
     {
         private decimal totalCost,stepCost;
         private DateTime startDate,endDate; // field
