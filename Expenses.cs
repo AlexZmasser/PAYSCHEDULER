@@ -6,7 +6,7 @@ namespace PAYSCHEDULER
     public class Expenses
     {
         private decimal totalCost,stepCost;
-        private DateTime startDate,endDate; // field
+        private DateTime startDate; // field
         private string costName,group; // name
         private bool paid;
 
@@ -30,12 +30,6 @@ namespace PAYSCHEDULER
             get { return startDate; }   // get method
             set { startDate = value; }  // set method
         }
-        public DateTime EndDate   // property
-        {
-            get { return endDate; }   // get method
-            set { endDate = value; }  // set method
-        }
-
         public string CostName   // property
         {
             get { return costName; }   // get method
@@ -51,7 +45,6 @@ namespace PAYSCHEDULER
             totalCost = TotalCost;
             StepCost = TotalCost/4;
             startDate = StartDate;
-            endDate = startDate.AddDays(56);
             group = Group;
             paid = Paid;
             
