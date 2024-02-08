@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yBDEC898f5+0awqQ9vSIva6PtQwe+Y1P3xKJd4/PA10NsLocBuKTmLj7OnK+rszsPAzHa3SnuC2kSm7tWEfdzw==",
+  "dgSpecHash": "DudcbdLXN6g/1L4CqQXKaRFmCSf9mzpvwnsgeLoqIGJ7LIQbsygxW1Bn+vAa91PJ8ALll1Q8dJAHDfMZbKYHWg==",
   "success": true,
-  "projectFilePath": "D:\\PROJECTS\\PAYSCHEDULER\\PAYSCHEDULER.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\thebl\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\thebl\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\thebl\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\thebl\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/alexzmasser/Desktop/PROJECTS/PAYSCHEDULER/PAYSCHEDULER.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
