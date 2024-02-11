@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+//class to add recurring expense user can let it repeat itself a selected times 
 namespace PAYSCHEDULER
 {
     public class RecurringExpense : Expenses
