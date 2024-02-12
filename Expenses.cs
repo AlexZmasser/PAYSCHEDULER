@@ -6,6 +6,7 @@ namespace PAYSCHEDULER
 {
     public class Expenses
     {
+        //private variables
         private decimal totalCost,stepCost;
         private DateTime startDate; // field
         private string costName,group; // name
