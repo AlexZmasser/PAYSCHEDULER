@@ -1,4 +1,6 @@
-﻿using System;
+﻿//created by Alexander Zmasser-Young
+
+using System;
 using System.Collections.Generic; 
 //main class
 
