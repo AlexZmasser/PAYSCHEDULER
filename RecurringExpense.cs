@@ -18,6 +18,18 @@ namespace PAYSCHEDULER
                 currentDate = currentDate.AddMonths(1);
             }
        }
+
+       public void AddWeeklyExpense(List<Expenses> expenseList,decimal TotalCost, DateTime StartDate, String Group, int numWeeks)
+       {
+            DateTime currentDate= StartDate; 
+            for(int i=0;i<numWeeks;i++)
+            {
+                Expenses.AddExpenseToList(expenseList, TotalCost,currentDate,Group);
+                currentDate = currentDate.AddDays(7);
+
+            }
+
+       }
     }
 
 
