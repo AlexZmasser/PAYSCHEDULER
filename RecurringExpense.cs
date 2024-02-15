@@ -15,8 +15,7 @@ namespace PAYSCHEDULER
             DateTime currentDate = StartDate; 
             for(int i=0;i < numMonths; i++)
             {  
-                Expenses newEpense = new Expenses(TotalCost,StartDate, Group);
-                expenseList.Add(newEpense);
+                Expenses.AddExpenseToList(expenseList, TotalCost,currentDate,Group,Paid);
                 currentDate = currentDate.AddMonths(1);
             }
        }

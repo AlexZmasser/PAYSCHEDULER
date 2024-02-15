@@ -10,17 +10,15 @@ namespace PAYSCHEDULER
     {
         static void Main(string[] args)
         {
-            List<Expenses> expenses = new List<Expenses>();
+            List<Expenses> expenses = new List<Expenses>(); 
+            RecurringExpense recurringExpense = new RecurringExpense(100, DateTime.Now, "Rent");
             
             Expenses.AddExpenseToList(expenses, 89, DateTime.Now, "Foods",false);
             
-            List<RecurringExpense> recurringExpense = new List<RecurringExpense>(); 
 
-            recurringExpense.AddExpenseToList(100, DateTime.Now,"rent", 6 );
-
-            foreach (RecurringExpense  recurringExpenses in recurringExpense)
+            foreach (Expenses expense in expenses)
             {
-                Console.WriteLine($"+{recurringExpenses.Group}: {recurringExpenses.TotalCost}$ Due {recurringExpenses.curentDate} ");
+                Console.WriteLine($"+{expenses}: {expenses.TotalCost}$ Due {v.curentDate} ");
             }
         }
     }
