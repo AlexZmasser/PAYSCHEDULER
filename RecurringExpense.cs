@@ -5,7 +5,7 @@ namespace PAYSCHEDULER
 {
     public class RecurringExpense : Expenses
     {
-        public RecurringExpense( decimal TotalCost, DateTime StartDate, String Group, bool Paid): base(TotalCost,StartDate,Group,Paid)
+        public RecurringExpense( decimal TotalCost, DateTime StartDate, String Group,int numMonthss): base(TotalCost,StartDate,Group)
         {
             
         }
@@ -15,7 +15,7 @@ namespace PAYSCHEDULER
             DateTime currentDate = StartDate; 
             for(int i=0;i < numMonths; i++)
             {  
-                Expenses.AddExpenseToList(expenseList, TotalCost,currentDate,Group,Paid);
+                Expenses.AddExpenseToList(expenseList, TotalCost,currentDate,Group);
                 currentDate = currentDate.AddMonths(1);
             }
        }
