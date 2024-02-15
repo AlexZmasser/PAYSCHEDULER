@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PAYSCHEDULER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eff87fece7090b6db43a2789ae98e14d57c115cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad7b8460974173c7670f59b9a3eee087287687a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PAYSCHEDULER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PAYSCHEDULER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

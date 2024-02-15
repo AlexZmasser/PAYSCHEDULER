@@ -1,8 +1,5 @@
-﻿//created by Alexander Zmasser-Young
-
-using System;
+﻿using System;
 using System.Collections.Generic; 
-//main class
 
 namespace PAYSCHEDULER
 {
@@ -11,7 +8,7 @@ namespace PAYSCHEDULER
         static void Main(string[] args)
         {
             List<Expenses> expenses = new List<Expenses>(); 
-            RecurringExpense recurringExpense = new RecurringExpense(50, DateTime.Now, "Food",3); 
+            RecurringExpense recurringExpense = new RecurringExpense(100, DateTime.Now,""); 
 
             recurringExpense.AddMonthlyExpense(expenses, 100, DateTime.Now, "Rent", 6);
             Expenses.AddExpenseToList(expenses, 89, DateTime.Now, "Foods");
